@@ -11,8 +11,6 @@ import {
 } from '@react-pdf/renderer';
 import { useScheduleStore } from '../store/scheduleStore';
 
-Font.register({ family: 'Montserrat', src: 'http://fonts.gstatic.com/s/montserrat/v10/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf', fontStyle: 'normal', fontWeight: 'normal',});
-
 const styles = StyleSheet.create({
   viewer: {
     width: '100%',
@@ -43,7 +41,6 @@ const styles = StyleSheet.create({
   },
   dayTitle: {
     fontSize: 40,
-    fontFamily: 'Montserrat',
     color: '#2F3152',
     textAlign: 'center',
     fontWeight: 'bold',
@@ -78,7 +75,6 @@ const styles = StyleSheet.create({
   },
   timeText: {
     fontSize: 27,
-    fontFamily: 'Montserrat',
     fontWeight: 'bold',
   },
   activityDetails: {
@@ -93,7 +89,6 @@ const styles = StyleSheet.create({
   },
   activityName: {
     fontSize: 15,
-    fontFamily: 'Montserrat',
     fontWeight: 'bold',
     color: '#2F3152',
   },
