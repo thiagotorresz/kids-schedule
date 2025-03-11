@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   },
   page: {
     padding: 20,
-    backgroundImage: '/img/background.png',
+    backgroundImage: 'https://thiagotorresz.github.io/kids-schedule/img/background.png',
     flexDirection: 'column',
     position: 'relative',
   },
@@ -131,8 +131,8 @@ export const PDFSchedule: React.FC = () => {
 
           return (
             <Page key={day} size="A4" orientation="landscape" style={styles.page}>
-              <Image src="/img/logo.jpg" style={styles.logo} />
-              <Image src="/img/background.png" style={styles.bg} />
+              <Image src="https://thiagotorresz.github.io/kids-schedule/img/logo.jpg" style={styles.logo} />
+              <Image src="https://thiagotorresz.github.io/kids-schedule/img/background.png" style={styles.bg} />
 
               <Text style={styles.dayTitle}>{day.toUpperCase()}</Text>
               <Text style={styles.subtitle}>PROGRAMAÇÃO INFANTIL</Text>
@@ -164,7 +164,7 @@ export const PDFSchedule: React.FC = () => {
               </View>
 
               <View style={[styles.footer, { flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }]}>
-                <Image src="/img/exclamation-2.png" style={{ width: 20, height: 20, marginRight: 5 }} />
+                <Image src="https://thiagotorresz.github.io/kids-schedule/img/exclamation-2.png" style={{ width: 20, height: 20, marginRight: 5 }} />
                 <Text>AS PROGRAMAÇÕES PODEM SOFRER ALTERAÇÕES.</Text>
               </View>
             </Page>
