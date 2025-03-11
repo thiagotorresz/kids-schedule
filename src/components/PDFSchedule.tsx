@@ -6,8 +6,7 @@ import {
   View,
   Image,
   StyleSheet,
-  PDFViewer,
-  Font
+  PDFViewer
 } from '@react-pdf/renderer';
 import { useScheduleStore } from '../store/scheduleStore';
 

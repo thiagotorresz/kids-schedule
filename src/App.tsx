@@ -11,7 +11,7 @@ function App() {
     <div className="min-h-screen bg-gray-100">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="flex justify-between items-center mb-8">
-          <a href="#">
+          <a href="https://thiagotorresz.github.io/schedule/">
             <h1 className="text-lg font-bold text-gray-400 hover:underline">Village Resort - Programação Adultos</h1>
           </a>
           <h4 className="text-3xl font-bold text-green-600">Village Resort - Programação Infantil</h4>
